@@ -1,0 +1,53 @@
+Body {
+	margin: 0;
+	padding: 0;
+	background: url('coffee.jpg') no-repeat;
+	background-size: cover;
+	font-family: 'Rubik', sans-serif;
+}
+
+.container h1 {
+	color: #fff;
+	font-size: 60px;
+	font-weight: 900;
+	text-transform: uppercase;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%)
+}
+
+.container h1 span {
+	display: block;
+	background-color: #2ecc;
+	padding: 0 10px;
+}
+
+.menu {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	overflow: hidden;
+	width: 50%;
+	cursor: pointer;
+}
+
+.menu span {
+	height: 3px;
+	display: block;
+	margin: 6px;
+	background: #fff;
+	transition: .4s all;
+}
+
+.s1,.s3{
+	width: 8%;
+}
+
+.s2{
+	width: 5%;
+}
+
+.menu:hover > .s2 {
+	width: 8%;
+}
